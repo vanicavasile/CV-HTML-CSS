@@ -1,0 +1,229 @@
+.body {
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(235, 235, 235);
+}
+
+.myCV {
+  max-width: 750px;
+  margin: auto;
+  background-color: rgb(235, 235, 235);
+}
+
+.avatar {
+  width: 160px;
+  box-shadow: 4px 4px 14px rgb(27, 36, 44);
+  border-radius: 20px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.aboutMe {
+  display: flex;
+  padding-top: 22px;
+}
+
+.myInfo h2 {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px 0px 7px 0px;
+  font-style: oblique;
+}
+
+.myInfo h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  margin: 20px 0px 7px 0;
+}
+
+.myInfo p {
+  font-style: italic;
+  margin: 2px 0;
+  color: rgb(255, 66, 66);
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-shadow: 4px 4px 10px rgb(255, 118, 118);
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.myInfo a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.myInfo a:hover {
+  color: rgb(5, 5, 135);
+  text-shadow: 4px 4px 5px rgb(133, 135, 230);
+}
+
+.hobbyContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(207, 207, 255);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 187, 255);
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+}
+
+.imagesContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: fit-content;
+  row-gap: 10px;
+}
+
+.imageContainer {
+  display: flex;
+  position: relative;
+  height: 150px;
+  overflow: hidden;
+}
+
+.boldHobby {
+  display: flex;
+  justify-content: center;
+}
+
+.imageContainer:nth-child(odd) {
+  margin-right: 10px;
+}
+
+.imageContainer img {
+  width: 115%;
+  transform: translate(-11%, -16%);
+  margin: auto;
+}
+
+.paragraphHobby {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  z-index: 1;
+  left: 10%;
+  top: 100%;
+  text-align: center;
+  width: 80%;
+  color:rgb(92, 0, 0);
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  transition: .5s;
+}
+
+.imageContainer:hover  .paragraphHobby {
+  top: 0;
+}
+
+.aboutWork {
+  background-color: rgb(227, 255, 252);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 187, 255);
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.aboutWork h2 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.aboutWork td {
+  padding: 5px 0;
+}
+
+.table {
+  width: 100%;
+  padding: 7px 0 7px 20px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: rgb(49, 49, 49);
+}
+
+.myVideos {
+  border-radius: 20px;
+  background-color: rgb(255, 180, 180);
+  padding-left: 30px;
+  padding-bottom: 7px;
+  margin-bottom: 20px;
+}
+
+.myVideos h2 {
+  margin: 0;
+  padding-top: 20px;
+}
+
+.myVideos p {
+  margin: 0 15px 0 20px;
+  padding: 5px 0 5px 0;
+  border-bottom: 1px solid rgb(51, 103, 107);
+}
+
+.myVideos a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.myVideos a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgb(51, 67, 82);
+  text-shadow: 4px 4px 10px rgb(36, 47, 56);
+}
+
+.formGroup label {
+  display: block;
+}
+
+.formGroup input, textarea {
+  background-color: rgb(234, 255, 252);
+  margin-bottom: 7px;
+  margin-top: 3px;
+  padding-left: 17px;
+  width: 100%;
+  border: none;
+  outline-style: none;
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.formGroup input {
+  height: 30px;
+}
+
+.formGroup textarea::placeholder {
+  padding-top: 7px;
+}
+
+.formGroup textarea {
+  resize: none;
+}
+
+.sendContact {
+  margin-bottom: 30px;
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  border: 2px solid rgb(148, 148, 148);
+  color: rgb(2, 59, 80);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.sendContact:hover {
+  cursor: pointer;
+}
