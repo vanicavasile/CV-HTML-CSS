@@ -100,6 +100,10 @@
   justify-content: center;
 }
 
+.bold-hobby h2 {
+  margin-bottom: 15px;
+}
+
 .image-container:nth-child(odd) {
   margin-right: 10px;
 }
@@ -248,5 +252,14 @@ textarea {
 @media (max-width: 400px) {
   .block-my-avatar {
     width: auto;
+  }
+  .image-container {
+    height: 90px;
+  }
+  .table {
+    padding: 7px 10px 7px 20px;
+  }
+  .vkontakte {
+    margin-top: 5px;
   }
 }
